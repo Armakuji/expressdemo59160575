@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/expressdemo');
+mongoose.connect('mongodb://Armakuji:Armakuji1234@ds157864.mlab.com:57864/ooad');
 
 const CoinRouter = require('./routes/CoinRouter');
 
